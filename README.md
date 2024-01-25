@@ -5,6 +5,9 @@ Copies certificates from the user certificate store into the system store. Also 
 Note that this is a significant change from the historical use of this module.  By copying, instead of moving, the Certificate Transparency problem for proxying Google Chrome has been solved.  See notes and links in the changelog below for more details on this.
 
 ## Changelog
+v2.0.2
+* support Android 14
+
 v2.0.1
 * Updated install messages
 * Fixed the release binary. I'd previously accidentally included the entire .git repository in the installer zip.  Whoopsie. Down to 8KB when I had it at 80KB before.
